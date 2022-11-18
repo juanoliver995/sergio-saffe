@@ -8,22 +8,22 @@
 
 @font-face {
   font-family: Neue-Bold;
-  src: url("./fuentessergio/NeuePlakExtendedBold.ttf");
+  src: url("/fuentessergio/NeuePlakExtendedBold.ttf");
 }
 
 @font-face {
   font-family: Neue-Regular;
-  src: url("./fuentessergio/NeuePlakExtendedRegular.ttf");
+  src: url("/fuentessergio/NeuePlakExtendedRegular.ttf");
 }
 
 @font-face {
   font-family: Neue-Ligth;
-  src: url("./fuentessergio/NeuePlakExtendedLigth.ttf");
+  src: url("/fuentessergio/NeuePlakExtendedLigth.ttf");
 }
 
 @font-face {
   font-family: Neue-Black;
-  src: url("./fuentessergio/NeuePlakExtendedExtraBlack.ttf");
+  src: url("/fuentessergio/NeuePlakExtendedExtraBlack.ttf");
 }
 
 #root {

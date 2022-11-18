@@ -4,6 +4,7 @@ import hablamusic from '/sellos/hablamusic.png'
 import lemonaid from '/sellos/lemon-aid.png'
 import nopreset from '/sellos/nopreset.png'
 import sk from '/sellos/sk.png'
+import deeperfect from '/sellos/logo-deeperfect.png'
 
 const Sellos = () => {
     return (
@@ -29,6 +30,9 @@ const Sellos = () => {
                         <img src={sk} />
                     </div>
                     <div className='slide'>
+                        <img src={deeperfect} />
+                    </div>
+                    <div className='slide'>
                         <img src={dirty} />
                     </div>
                     <div className='slide'>
@@ -46,7 +50,9 @@ const Sellos = () => {
                     <div className='slide'>
                         <img src={sk} />
                     </div>
-
+                    <div className='slide'>
+                        <img src={deeperfect} />
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import { delay, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 const Header = () => {
     return (
@@ -14,13 +14,13 @@ const Header = () => {
             transition={{
                 ease: "easeInOut",
                 duration: 3,
-                delay: 1
+                delay: 2
             }}
             viewport={{ once: true }}
             className="nav-bar">
             <motion.img
                 initial={{
-                    width: "300px",
+                    width: "500px",
                     opacity: 0
                 }}
                 animate={{

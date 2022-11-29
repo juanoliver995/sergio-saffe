@@ -1,140 +1,15 @@
-import React from 'react'
+import Date from "./Date"
 
-const Dates = () => {
+const Dates = ({ dates }) => {
     return (
         <div className='dates-container'>
             <div className='position-dates'>
                 <div className='dates'>
-                    <div className='date'>
-                        <div className='info-date'>
-                            <div className='fecha'>
-                                <p className='day'>04</p>
-                                <p className='month'>Nov 2022</p>
-                            </div>
-                            <div className='club-country'>
-                                <p className='country'>Cordoba, Arg</p>
-                                <p className='club'>La fabrica - Pan Pot</p>
-                            </div>
-                        </div>
-                        <div className='btn-date'><a>buy tickets</a></div>
-                    </div>
-                    <div className='date'>
-                        <div className='info-date'>
-                            <div className='fecha'>
-                                <p className='day'>04</p>
-                                <p className='month'>Nov 2022</p>
-                            </div>
-                            <div className='club-country'>
-                                <p className='country'>Cordoba, Arg</p>
-                                <p className='club'>La fabrica - Pan Pot</p>
-                            </div>
-                        </div>
-                        <div className='btn-date'><a>buy tickets</a></div>
-                    </div>
-                    <div className='date'>
-                        <div className='info-date'>
-                            <div className='fecha'>
-                                <p className='day'>04</p>
-                                <p className='month'>Nov 2022</p>
-                            </div>
-                            <div className='club-country'>
-                                <p className='country'>Cordoba, Arg</p>
-                                <p className='club'>La fabrica - Pan Pot</p>
-                            </div>
-                        </div>
-                        <div className='btn-date'><a>buy tickets</a></div>
-                    </div>
-                    <div className='date'>
-                        <div className='info-date'>
-                            <div className='fecha'>
-                                <p className='day'>04</p>
-                                <p className='month'>Nov 2022</p>
-                            </div>
-                            <div className='club-country'>
-                                <p className='country'>Cordoba, Arg</p>
-                                <p className='club'>La fabrica - Pan Pot</p>
-                            </div>
-                        </div>
-                        <div className='btn-date'><a>buy tickets</a></div>
-                    </div>
-                    <div className='date'>
-                        <div className='info-date'>
-                            <div className='fecha'>
-                                <p className='day'>04</p>
-                                <p className='month'>Nov 2022</p>
-                            </div>
-                            <div className='club-country'>
-                                <p className='country'>Cordoba, Arg</p>
-                                <p className='club'>La fabrica - Pan Pot</p>
-                            </div>
-                        </div>
-                        <div className='btn-date'><a>buy tickets</a></div>
-                    </div>
-                    <div className='date'>
-                        <div className='info-date'>
-                            <div className='fecha'>
-                                <p className='day'>04</p>
-                                <p className='month'>Nov 2022</p>
-                            </div>
-                            <div className='club-country'>
-                                <p className='country'>Cordoba, Arg</p>
-                                <p className='club'>La fabrica - Pan Pot</p>
-                            </div>
-                        </div>
-                        <div className='btn-date'><a>buy tickets</a></div>
-                    </div>
-                    <div className='date'>
-                        <div className='info-date'>
-                            <div className='fecha'>
-                                <p className='day'>04</p>
-                                <p className='month'>Nov 2022</p>
-                            </div>
-                            <div className='club-country'>
-                                <p className='country'>Cordoba, Arg</p>
-                                <p className='club'>La fabrica - Pan Pot</p>
-                            </div>
-                        </div>
-                        <div className='btn-date'><a>buy tickets</a></div>
-                    </div>
-                    <div className='date'>
-                        <div className='info-date'>
-                            <div className='fecha'>
-                                <p className='day'>04</p>
-                                <p className='month'>Nov 2022</p>
-                            </div>
-                            <div className='club-country'>
-                                <p className='country'>Cordoba, Arg</p>
-                                <p className='club'>La fabrica - Pan Pot</p>
-                            </div>
-                        </div>
-                        <div className='btn-date'><a>buy tickets</a></div>
-                    </div>
-                    <div className='date'>
-                        <div className='info-date'>
-                            <div className='fecha'>
-                                <p className='day'>04</p>
-                                <p className='month'>Nov 2022</p>
-                            </div>
-                            <div className='club-country'>
-                                <p className='country'>Cordoba, Arg</p>
-                                <p className='club'>La fabrica - Pan Pot</p>
-                            </div>
-                        </div>
-                        <div className='btn-date'><a>buy tickets</a></div>
-                    </div>
-                    <div className='date'>
-                        <div className='info-date'>
-                            <div className='fecha'>
-                                <p className='day'>04</p>
-                                <p className='month'>Nov 2022</p>
-                            </div>
-                            <div className='club-country'>
-                                <p className='country'>Cordoba, Arg</p>
-                                <p className='club'>La fabrica - Pan Pot</p>
-                            </div>
-                        </div>
-                        <div className='btn-date'><a>buy tickets</a></div>
-                    </div>
+                    {
+                        dates.map(date => (
+                            <Date date={date} key={date._id} />
+                        ))
+                    }
                 </div>
             </div>
         </div>

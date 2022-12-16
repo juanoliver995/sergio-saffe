@@ -319,7 +319,7 @@ img {
 
 .dates {
   width: 50%;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 20px 500px;
   display: flex;
   flex-direction: column;
   gap: 10px;

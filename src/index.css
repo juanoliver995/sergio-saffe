@@ -689,6 +689,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
   }
+
+  .dates {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -706,6 +710,7 @@ img {
 
   .dates {
     width: 95%;
+    margin: 0 auto;
   }
 
   .dates-container {
@@ -780,6 +785,10 @@ img {
   .title-hero {
     border-bottom: unset;
   }
+
+  .dates {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -826,5 +835,9 @@ img {
 
   .img-bio img {
     margin-top: 10px;
+  }
+
+  .dates {
+    margin: 0 auto;
   }
 }

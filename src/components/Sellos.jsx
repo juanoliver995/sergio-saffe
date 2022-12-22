@@ -5,6 +5,8 @@ import lemonaid from '/sellos/lemon-aid.png'
 import nopreset from '/sellos/nopreset.png'
 import sk from '/sellos/sk.png'
 import deeperfect from '/sellos/logo-deeperfect.png'
+import under from '/sellos/under.png'
+import roush from '/sellos/roush.png'
 
 const Sellos = () => {
     return (
@@ -33,6 +35,12 @@ const Sellos = () => {
                         <img src={deeperfect} />
                     </div>
                     <div className='slide'>
+                        <img src={roush} />
+                    </div>
+                    <div className='slide'>
+                        <img src={under} />
+                    </div>
+                    <div className='slide'>
                         <img src={dirty} />
                     </div>
                     <div className='slide'>
@@ -52,6 +60,12 @@ const Sellos = () => {
                     </div>
                     <div className='slide'>
                         <img src={deeperfect} />
+                    </div>
+                    <div className='slide'>
+                        <img src={roush} />
+                    </div>
+                    <div className='slide'>
+                        <img src={under} />
                     </div>
                 </div>
             </div>

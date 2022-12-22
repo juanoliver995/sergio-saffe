@@ -268,7 +268,7 @@ img {
 }
 
 .info-bio p {
-  font-size: 20px;
+  font-size: 16px;
   font-size: Neue-Regular;
   margin-bottom: 10px;
 }
@@ -296,6 +296,7 @@ img {
   border-radius: 6px;
   font-family: Neue-Bold;
 }
+
 
 .about-me a:hover {
   background: radial-gradient(89.39% 83.75% at 50% 133.75%, #FF8A00 0%, rgba(255, 255, 255, 0) 100%), #f3f3f3;

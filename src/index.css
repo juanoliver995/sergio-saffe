@@ -36,7 +36,6 @@ body {
   background-color: #040404;
   font-family: Neue-Regular;
   color: white;
-
 }
 
 .nav-bar {
@@ -44,11 +43,12 @@ body {
   position: fixed;
   top: 0;
   height: 10vh;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: rgba(0, 0, 0, 0.747);
   backdrop-filter: blur(5px);
-  display: grid;
-  place-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   z-index: 1000;
 }
 
@@ -59,12 +59,72 @@ body {
 .hero {
   margin-top: 10vh;
   width: 100%;
-  background-image: url("/images/foto-home-prueba1.jpg");
   min-height: 100vh;
   background-size: cover;
-  background-position: center center;
   display: grid;
   place-content: center;
+}
+
+.hero-child {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  display: grid;
+  place-content: center;
+}
+
+.one {
+  background-image: url("/images/foto-home-prueba1.jpg");
+  background-position: center center;
+}
+
+.one h1 {
+  margin-bottom: 20px;
+}
+
+.container-hero-dates {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.two {
+  background-image: url("/images/DSC03047.jpg");
+  background-position: center bottom;
+}
+
+.btn-listen {
+  display: grid;
+  place-content: center;
+  margin-top: 20px;
+}
+
+.btn-listen a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: Neue-Bold;
+  transition: all .3s ease-in-out;
+}
+
+.btn-listen a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  transition: all .3s ease-in-out;
+}
+
+.three {
+  background-image: url("/images/soundcloud-card.jpg");
+  background-position: center center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white;
+  transform: scale(1.2);
 }
 
 .info-hero {
@@ -97,8 +157,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 100px;
-  margin-top: 30px;
+  gap: 20px;
 }
 
 .social-share a {
@@ -116,13 +175,13 @@ body {
 }
 
 .item-social img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .item-social img:hover {
   transform: scale(1.2);
-  filter: drop-shadow(0 0 0.75rem white);
+  filter: drop-shadow(0 0 0.50rem white);
 }
 
 
@@ -316,6 +375,12 @@ img {
 .position-dates {
   width: 100%;
   margin-top: 100px;
+}
+
+.position-dates h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 50px;
 }
 
 .dates {
@@ -724,6 +789,10 @@ img {
     align-items: unset;
   }
 
+  .hero-date {
+    padding-bottom: 0 !important;
+  }
+
   .info-date {
     flex-direction: column;
     align-items: unset;
@@ -790,12 +859,13 @@ img {
   .dates {
     margin: 0 auto;
   }
+
+  .nav-bar {
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 414px) {
-  .hero {
-    padding: 10px 0;
-  }
 
   .hovered-event-image {
     position: absolute;

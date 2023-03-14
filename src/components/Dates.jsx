@@ -5,6 +5,7 @@ const Dates = ({ dates }) => {
         <div className='dates-container'>
             <div className='position-dates'>
                 <div className='dates'>
+                    <h1>TOUR DATES</h1>
                     {
                         dates.map(date => (
                             <Date date={date} key={date._id} />

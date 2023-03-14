@@ -19,7 +19,7 @@ const Date = ({ date }) => {
 
                 </div>
             </div>
-            <div className='btn-date'><a href={urlTickets} target="_blank">buy tickets</a></div>
+            <div className='btn-date'><a href={urlTickets} target="_blank">more information</a></div>
         </div>
     )
 }

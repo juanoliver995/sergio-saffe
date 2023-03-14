@@ -863,6 +863,10 @@ img {
   .nav-bar {
     padding: 10px;
   }
+
+  .two {
+    background-position: 30%;
+  }
 }
 
 @media screen and (max-width: 414px) {

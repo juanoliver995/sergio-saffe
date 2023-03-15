@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import instagram from "../assets/instagram.svg"
-import twitter from "../assets/twitter.svg"
-import facebook from "../assets/facebook.svg"
+import soundcloud from "../assets/soundcloud.svg"
+import youtube from "../assets/youtube.svg"
 
 const Header = () => {
     return (
@@ -52,14 +52,14 @@ const Header = () => {
                         <img src={instagram} />
                     </div>
                 </a>
-                <a target="_blank" rel="noreferer" href="https://twitter.com/SergioSaffe">
+                <a target="_blank" rel="noreferer" href="https://soundcloud.com/sergiosaffe">
                     <div className='item-social'>
-                        <img src={twitter} />
+                        <img src={soundcloud} />
                     </div>
                 </a>
-                <a target="_blank" rel="noreferer" href="https://www.facebook.com/saffesergio">
+                <a target="_blank" rel="noreferer" href="https://www.youtube.com/channel/UCURAWLVm5oajJfIrmLnsMQw">
                     <div className='item-social'>
-                        <img src={facebook} />
+                        <img src={youtube} />
                     </div>
                 </a>
             </motion.div>

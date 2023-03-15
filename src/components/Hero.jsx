@@ -28,8 +28,8 @@ const Hero = () => {
                                     <p className='month'>mar</p>
                                 </div>
                                 <div className='club-country'>
-                                    <p className='country'>playa del carmen &#127474;&#127485;</p>
                                     <p className='club'>speakeasy</p>
+                                    <p className='country'>playa del carmen &#127474;&#127485;</p>
                                 </div>
                             </div>
                         </div>
@@ -42,8 +42,8 @@ const Hero = () => {
                                     <p className='month'>mar</p>
                                 </div>
                                 <div className='club-country'>
-                                    <p className='country'>playa del carmen &#127474;&#127485;</p>
                                     <p className='club'>on heaven</p>
+                                    <p className='country'>playa del carmen &#127474;&#127485;</p>
                                 </div>
                             </div>
                         </div>
@@ -56,8 +56,8 @@ const Hero = () => {
                                     <p className='month'>mar</p>
                                 </div>
                                 <div className='club-country'>
-                                    <p className='country'>miami &#127482;&#127480;</p>
                                     <p className='club'>tree house</p>
+                                    <p className='country'>miami &#127482;&#127480;</p>
                                 </div>
                             </div>
                         </div>

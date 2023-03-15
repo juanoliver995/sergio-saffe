@@ -864,9 +864,22 @@ img {
     padding: 10px;
   }
 
+  .hero-child {
+    backdrop-filter: blur(1px);
+  }
+
   .two {
     background-position: 30%;
   }
+
+  .one {
+    background-image: url("/images/sergio-hero.png");
+  }
+
+  .hero-date .info-date {
+    margin-bottom: 0;
+  }
+
 }
 
 @media screen and (max-width: 414px) {

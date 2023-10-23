@@ -17,53 +17,6 @@ const Hero = () => {
                 disableOnInteraction: false
             }}
         >
-            <SwiperSlide className='hero one'>
-                <div className='hero-child'>
-                    <h1>next dates of my tour</h1>
-                    <div className='container-hero-dates'>
-                        <div className='date hero-date'>
-                            <div className='info-date'>
-                                <div className='fecha'>
-                                    <p className='day'>15</p>
-                                    <p className='month'>mar</p>
-                                </div>
-                                <div className='club-country'>
-                                    <p className='club'>speakeasy</p>
-                                    <p className='country'>playa del carmen &#127474;&#127485;</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='container-hero-dates'>
-                        <div className='date hero-date'>
-                            <div className='info-date'>
-                                <div className='fecha'>
-                                    <p className='day'>16</p>
-                                    <p className='month'>mar</p>
-                                </div>
-                                <div className='club-country'>
-                                    <p className='club'>on heaven</p>
-                                    <p className='country'>playa del carmen &#127474;&#127485;</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='container-hero-dates'>
-                        <div className='date hero-date'>
-                            <div className='info-date'>
-                                <div className='fecha'>
-                                    <p className='day'>26</p>
-                                    <p className='month'>mar</p>
-                                </div>
-                                <div className='club-country'>
-                                    <p className='club'>tree house</p>
-                                    <p className='country'>miami &#127482;&#127480;</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </SwiperSlide>
             <SwiperSlide className='hero two'>
                 <div className='hero-child'>
                     <h1>listen to my last set</h1>
